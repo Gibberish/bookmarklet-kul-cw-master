@@ -1,0 +1,2594 @@
+@charset "UTF-8";
+/* @override
+	http://programmagids/resources/css/programmagids.css */
+/* hard hide, om tijdelijk features te kunnen hiden  */
+/* line 14, ../sass/programmagids.scss */
+.hh {
+  display: none !important;
+}
+
+/* line 18, ../sass/programmagids.scss */
+#content div#tab_voorwaarden_content div#show_more.full {
+  display: none;
+}
+
+/* line 21, ../sass/programmagids.scss */
+#content div#tab_voorwaarden_content div#show_more.gradient {
+  width: 100%;
+  height: 2em;
+  padding: 0px;
+  background-color: #fafafa;
+  margin-left: -10px;
+  position: absolute;
+  top: 380px;
+  border-top: 7px solid white;
+  font-size: 2em;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+/* line 34, ../sass/programmagids.scss */
+#content div#tab_voorwaarden_content div#show_more.gradient span {
+  display: inline-block;
+  position: relative;
+  top: -11px;
+}
+/* line 35, ../sass/programmagids.scss */
+#content div#tab_voorwaarden_content div#show_more.gradient:hover {
+  background-color: #eee;
+}
+
+/* line 38, ../sass/programmagids.scss */
+#content div#tab_voorwaarden_content.gradient {
+  height: 2em;
+  overflow: hidden;
+  padding-bottom: 381px;
+}
+/* line 43, ../sass/programmagids.scss */
+#content div#tab_voorwaarden_content.gradient:before {
+  pointer-events: none;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), #ffffff);
+  opacity: 1;
+}
+/* line 54, ../sass/programmagids.scss */
+#content div#tab_voorwaarden_content.gradient * {
+  position: static;
+}
+
+/* opmaak cs/toelatingsvoorwaarden */
+/* line 63, ../sass/programmagids.scss */
+#content div#tab_voorwaarden_content ul {
+  padding-bottom: 5px;
+}
+
+/* line 66, ../sass/programmagids.scss */
+#content div#tab_voorwaarden_content ul li {
+  list-style-type: bullet;
+  padding-left: 0px;
+}
+
+/* INTRANET */
+/* line 76, ../sass/programmagids.scss */
+.login {
+  float: right;
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+/* line 77, ../sass/programmagids.scss */
+.login a {
+  left: 5px;
+  top: 10px;
+  padding-left: 5px;
+  color: #d7edf1;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 78, ../sass/programmagids.scss */
+#footer.intranet {
+  background-color: #BE4B06;
+}
+
+/* line 79, ../sass/programmagids.scss */
+#header.intranet {
+  background: #1e9bb7 url(https://stijl.kuleuven.be/_i/background/banner_intranet.png) left top;
+}
+
+/* line 83, ../sass/programmagids.scss */
+#main_container tr.ola_row.intranet .ola {
+  border-left: 1px solid #E37305;
+  color: #BE4B06;
+}
+
+/* line 87, ../sass/programmagids.scss */
+#main_container tr.ola_row.intranet td.sp {
+  padding-bottom: 15px;
+  font-weight: normal;
+  font-style: normal;
+  color: #BE4B06;
+}
+
+/* line 93, ../sass/programmagids.scss */
+#main_container tr.ola_row.intranet td.code {
+  color: #BE4B06;
+}
+
+/* line 98, ../sass/programmagids.scss */
+li#print_proggids.intranet a {
+  padding-left: 10px;
+  color: white;
+  background-color: #e37305;
+  cursor: pointer;
+}
+
+/* line 105, ../sass/programmagids.scss */
+li#print_proggids.intranet a:hover {
+  background-color: #ffb009;
+}
+
+/* Update 2011 12 01 **/
+/* Update 210612 : overruling main css voor diepe nesting */
+/* line 114, ../sass/programmagids.scss */
+li.lilevel_5 a {
+  text-transform: none;
+}
+
+/* Einde update */
+/*#content  { position:relative; top: 10px; }*/
+/* Update 04072012 :  fasen bij plaats in het onderwijs (ects fiche) */
+/* line 120, ../sass/programmagids.scss */
+#content span.fases-in-plaats {
+  margin-left: 10px;
+  position: relative;
+  top: 5px;
+}
+
+/* line 121, ../sass/programmagids.scss */
+#content span.fases-in-plaats img {
+  padding-left: 2px;
+}
+
+/* Einde update */
+/* line 124, ../sass/programmagids.scss */
+#main_container .tabs ul li.no_tab p.vertaling_warning,
+#hover_selectie_content div.vertaling_warning {
+  color: red;
+  font-weight: bold;
+}
+
+/* Extra reset */
+/* line 131, ../sass/programmagids.scss */
+#content ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+/* line 135, ../sass/programmagids.scss */
+#content ul li,
+#content ul li ul li,
+#content ul li ul li ul li,
+#content ul li ul li ul li ul li {
+  background-image: none;
+  padding-left: 0;
+}
+
+/* line 143, ../sass/programmagids.scss */
+#content div.tab_content.askli ul {
+  padding-top: 5px;
+}
+
+/* line 147, ../sass/programmagids.scss */
+#content div.tab_content.askli ul li {
+  padding-left: 10px;
+  list-style: inherit;
+  list-style-position: inside;
+}
+
+/* Update Peterhelsen 240413 terugzetten van bullets bij teksten binnen ects 
+   behalve bij "komt ook voor in " op ects �n ola niveau
+*/
+/* line 156, ../sass/programmagids.scss */
+#content div#hover_selectie_target_ects .tab_content ul li {
+  list-style: inherit;
+  list-style-position: inside;
+}
+
+/* line 161, ../sass/programmagids.scss */
+#content div#hover_selectie_target_ects .tab_content ul.basic-list li {
+  list-style: none;
+}
+
+/* Alleen voor print */
+/* line 169, ../sass/programmagids.scss */
+.print_only,
+#content img.print_only {
+  display: none;
+}
+
+/* Linkerbalk
+ * - used on every page
+ */
+/* line 177, ../sass/programmagids.scss */
+#subnav #acjaar {
+  padding: 5px;
+  border: 0 none;
+  font-size: 1.2em;
+  margin: 0px 0px 5px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #444444;
+}
+
+/* line 188, ../sass/programmagids.scss */
+#subnav #campagnebeeld {
+  width: 160px;
+  height: 120px;
+  /* height should be set, or the script to place the floatpoint for the legend should wait until after loading all the images */
+  margin-bottom: 5px;
+}
+
+/* line 194, ../sass/programmagids.scss */
+#subnav #integratie_logo {
+  width: 160px;
+  /* height: 120px; height should be set, or the script to place the floatpoint for the legend should wait until after loading all the images */
+  margin-bottom: 5px;
+}
+
+/* Main container
+ * - used on every page
+ */
+/* line 203, ../sass/programmagids.scss */
+#main_container {
+  position: relative;
+  float: left;
+  width: 73%;
+  font-size: 12px;
+}
+
+/* line 209, ../sass/programmagids.scss */
+#main_container * {
+  font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+/* line 212, ../sass/programmagids.scss */
+#main_container.traject,
+#main_container.start,
+#main_container.fac,
+#main_container.zoekresultaten,
+#main_container.ects {
+  width: 790px;
+}
+
+/* Search
+ * - gebruikt op start en zoekresultaten pagina
+ */
+/* line 223, ../sass/programmagids.scss */
+#main_container form.search fieldset {
+  background: #fff;
+  border: 0px;
+  padding: 5px 0 5px 0;
+  margin: 0 0 10px 0;
+}
+
+/* line 229, ../sass/programmagids.scss */
+#main_container form.search fieldset input[type="text"] {
+  width: 350px;
+  padding: 5px 5px;
+  padding-right: 25px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  background: #f5f5f5 url(../images/search_bg.png) right no-repeat;
+}
+
+/* line 237, ../sass/programmagids.scss */
+#main_container form.search fieldset input[type="submit"] {
+  padding: 5px 9px;
+  font-size: 1em;
+  color: #fff;
+  border: none;
+  background: #18a4c2;
+  border: 1px solid #89cfde;
+}
+
+/* line 246, ../sass/programmagids.scss */
+#main_container div.searchresults .important {
+  font-weight: bold;
+}
+
+/* line 250, ../sass/programmagids.scss */
+#main_container div.searchresults ul li a {
+  font-weight: bold;
+}
+
+/* Filter
+ * - gebruikt op start pagina
+ */
+/* line 257, ../sass/programmagids.scss */
+#main_container.start #filter_category_container {
+  margin: 5px 0;
+  padding: 7px;
+  border: 0px none #eeeeee;
+  background-color: #DCF1F6;
+}
+
+/* line 263, ../sass/programmagids.scss */
+#main_container.start form.filter fieldset {
+  background: #fff;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: #DCF1F6;
+}
+
+/* Buttons
+ * - gebruikt op start pagina
+ */
+/* line 276, ../sass/programmagids.scss */
+.start a.bannerbutton {
+  border-bottom-style: none;
+  float: right;
+}
+
+/* line 282, ../sass/programmagids.scss */
+select.start_select {
+  color: #000;
+  width: 19%;
+  margin-right: 1%;
+}
+
+/* line 287, ../sass/programmagids.scss */
+#main_container.start form.filter fieldset input[type="text"] {
+  width: 190px;
+  padding: 5px 5px;
+}
+
+/* line 292, ../sass/programmagids.scss */
+#main_container.start form.filter fieldset input[type="reset"] {
+  padding: 5px 2px;
+  font-size: 1em;
+  color: #fff;
+  border: none;
+  background: #18a4c2;
+  border: 1px solid #89cfde;
+  float: right;
+  margin: 0 0 0 0px;
+}
+
+/* Columns
+ * - gebruikt op start pagina
+ */
+/* line 306, ../sass/programmagids.scss */
+#main_container.start .columnleft {
+  float: left;
+  width: 49%;
+}
+
+/* line 310, ../sass/programmagids.scss */
+#main_container.start .columnright {
+  float: right;
+  width: 49%;
+}
+
+/* Bread crumb
+ * - gebruikt op ects pagina
+ */
+/* line 318, ../sass/programmagids.scss */
+#main_container .breadcrumb_start {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #074a56;
+  font-size: 0.9em;
+}
+
+/* line 324, ../sass/programmagids.scss */
+#main_container .breadcrumb_start a.active {
+  color: #707070;
+}
+
+/* Fiche-top en fiche-blok
+ * - gebruikt op ects pagina
+ */
+/* line 331, ../sass/programmagids.scss */
+#main_container .level_fiche .level_fiche_sub,
+#main_container .level_fiche_blok .level_fiche_sub {
+  padding: 4px 0;
+}
+
+/* line 335, ../sass/programmagids.scss */
+#main_container .level_fiche .studiepunten,
+#main_container .level_fiche_blok .studiepunten {
+  font-weight: bold;
+  color: #7b7b7b;
+  font-size: 1em;
+  margin: 0 10px 0 0;
+}
+
+/* line 342, ../sass/programmagids.scss */
+#main_container .level_fiche .taal,
+#main_container .level_fiche .duur,
+#main_container .level_fiche .semester,
+#main_container .level_fiche .level,
+#main_container .level_fiche .examen,
+#main_container .level_fiche .docenten,
+#main_container .level_fiche_blok .taal,
+#main_container .level_fiche_blok .duur,
+#main_container .level_fiche_blok .semester,
+#main_container .level_fiche_blok .level,
+#main_container .level_fiche_blok .examen,
+#main_container .level_fiche_blok .docenten,
+#main_container .level_fiche_blok .werkvorm {
+  font-weight: bold;
+  color: #7b7b7b;
+  font-size: 1em;
+  margin: 0 10px 0 0;
+}
+
+/* line 360, ../sass/programmagids.scss */
+#main_container .level_fiche .docenten .docent,
+#main_container .level_fiche_blok .docenten .docent {
+  white-space: nowrap;
+}
+
+/* line 364, ../sass/programmagids.scss */
+#main_container .level_fiche .docenten .docent .functie,
+#main_container .level_fiche_blok .docenten .docent .functie {
+  font-weight: normal;
+}
+
+/* line 368, ../sass/programmagids.scss */
+#main_container .level_fiche .taal img,
+#main_container .level_fiche .duur img,
+#main_container .level_fiche .semester img,
+#main_container .level_fiche .level img,
+#main_container .level_fiche .examen img,
+#main_container .level_fiche .docenten img,
+#main_container .level_fiche_blok .taal img,
+#main_container .level_fiche_blok .duur img,
+#main_container .level_fiche_blok .semester img,
+#main_container .level_fiche_blok .level img,
+#main_container .level_fiche_blok .examen img,
+#main_container .level_fiche_blok .docenten img,
+#main_container .level_fiche_blok .level_fiche_sub img {
+  height: 1em;
+  padding-right: 0.5em;
+}
+
+/* line 384, ../sass/programmagids.scss */
+#main_container .level_fiche .poc,
+#main_container .level_fiche_blok .poc {
+  font-weight: normal;
+  color: #6e6f6f;
+  font-size: 1em;
+  margin: 5px 0px;
+}
+
+/* line 391, ../sass/programmagids.scss */
+#main_container .level_fiche a,
+#main_container .level_fiche_blok a {
+  color: #074a56;
+}
+
+/* ############################## */
+/* Titles
+ * - gebruikt op zoekresultaten pagina ++
+ */
+/* line 401, ../sass/programmagids.scss */
+#main_container.zoekresultaten h2 {
+  margin: 10px 0 10px 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* Titles
+ * - gebruikt op cq pagina ++
+ */
+/* line 411, ../sass/programmagids.scss */
+#main_container.cq p.specification {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-top: -1.4em;
+  color: #444444;
+}
+
+/* Titles
+ * - gebruikt op ects pagina ++
+ */
+/* line 421, ../sass/programmagids.scss */
+#main_container.ects h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #000000;
+  margin: 0 0 10px;
+}
+
+/* line 427, ../sass/programmagids.scss */
+#main_container.ects h2 .extraheading {
+  margin: 10px 0 10px 0;
+  font-size: 0.9em;
+  font-weight: normal;
+  color: #8e8c8d;
+}
+
+/* line 433, ../sass/programmagids.scss */
+#main_container.ects h4 {
+  margin: 10px 0 10px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #444444;
+}
+
+/* line 439, ../sass/programmagids.scss */
+#main_container.ects .level_0 h1 {
+  display: none;
+  /* actual title used in the hover bar */
+}
+
+/* line 443, ../sass/programmagids.scss */
+#main_container.ects .level_1 h2 {
+  margin: 2px 0 0 0;
+  font-size: 1em;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* line 449, ../sass/programmagids.scss */
+#main_container.ects .level_2 h3,
+#main_container.ects .level_2 h4 {
+  margin: 0 0 0 0;
+  padding: 4px 7px 4px 9px;
+  font-size: 1.3em;
+}
+
+/* line 455, ../sass/programmagids.scss */
+#main_container.ects .level_2 h3.mandatory {
+  background: #00a5c5;
+  font-size: 1.2em;
+}
+
+/* line 459, ../sass/programmagids.scss */
+#main_container.ects .level_2 h4.mandatory {
+  background: #82ccdc;
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
+/* line 464, ../sass/programmagids.scss */
+#main_container.ects .level_2 h3.mandatory .titlebold {
+  background: #00a5c5;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* line 469, ../sass/programmagids.scss */
+#main_container.ects .level_2 h4.mandatory .titlebold {
+  background: #82ccdc;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* line 474, ../sass/programmagids.scss */
+#main_container.ects .level_2 h3.optional {
+  background: #00a5c5;
+}
+
+/* line 477, ../sass/programmagids.scss */
+#main_container.ects .level_2 h3 a,
+#main_container.ects .level_2 h4 a {
+  color: #ffffff;
+  text-decoration: none;
+  border: 0;
+}
+
+/* line 483, ../sass/programmagids.scss */
+#main_container.ects .level_3 h4 {
+  margin: 7px 9px 0px 9px;
+  padding: 4px 5px 5px 5px;
+  background-color: #00a5c5;
+  font-size: 1em;
+}
+
+/* line 489, ../sass/programmagids.scss */
+#main_container.ects .level_3 h4.mandatory {
+  background: #89cfde;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+/* line 494, ../sass/programmagids.scss */
+#main_container.ects .level_3 h4.mandatory .titlebold {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* line 498, ../sass/programmagids.scss */
+#main_container.ects .level_3 h4.optional {
+  background: #ddf1f6;
+  padding: 4px 5px 5px 7px;
+  margin: 7px 0 0 0;
+  font-size: 1em;
+  color: #074a56;
+}
+
+/* line 505, ../sass/programmagids.scss */
+#main_container.ects .level_3 h4.optional a {
+  color: #074a56;
+  text-decoration: none;
+  background: #ddf1f6;
+}
+
+/* line 510, ../sass/programmagids.scss */
+#main_container.ects .level_3 h4.optional_faculteitspagina {
+  background: #ddf1f6;
+  padding: 4px 5px 5px 7px;
+  margin: 0 0 5px 0;
+  font-size: 1em;
+  color: #074a56;
+}
+
+/* line 517, ../sass/programmagids.scss */
+#main_container.ects .level_3 h4.optional_faculteitspagina a {
+  color: #074a56;
+  text-decoration: none;
+  background: #ddf1f6;
+}
+
+/* line 522, ../sass/programmagids.scss */
+#main_container.ects .level_3 h4 a {
+  color: #ffffff;
+  text-decoration: none;
+  border: 0;
+}
+
+/* line 527, ../sass/programmagids.scss */
+#main_container.ects .level_3 img.ects_optional {
+  padding: 5px 0 0 6px;
+}
+
+/* TODO: OBSOLETE CSS?
+#main_container.ects .level_4 h5 {
+  margin: 2px 0 0 0;
+  padding: 4px 5px 5px 37px;
+  background-color: #787878;
+  font-size: 1em;
+}
+#main_container.ects .level_4 h5.mandatory {
+  background: #71bad3 url(../images/icons/icon-h5-m.gif) no-repeat 8px center;
+}
+#main_container.ects .level_4 h5.optional {
+  background: #71bad3 url(../images/icons/icon-h5-o.gif) no-repeat 8px center;
+}
+#main_container.ects .level_4 h5 a {
+  color: #ffffff;
+  text-decoration: none;
+  border: 0;
+}*/
+/* TODO: OBSOLETE CSS?
+#main_container.ects .level_5 h6 {
+  margin: 2px 0 0 0;
+  padding: 4px 5px 5px 47px;
+  background-color: #adadad;
+  font-size: 1em;
+}
+#main_container.ects .level_5 h6.mandatory {
+  background: #90c6db url(../images/icons/icon-h6-m.gif) no-repeat 8px center;
+}
+#main_container.ects .level_5 h6.optional {
+  background: #90c6db url(../images/icons/icon-h6-o.gif) no-repeat 8px center;
+}
+#main_container.ects .level_5 h6 a {
+  color: #ffffff;
+  text-decoration: none;
+  border: 0;
+}*/
+/* line 566, ../sass/programmagids.scss */
+#main_container.ects .level_4 ul {
+  padding: 0 0 0 14px;
+}
+
+/* line 569, ../sass/programmagids.scss */
+#main_container.ects .level_4 li {
+  list-style: square;
+  padding: 0;
+}
+
+/* line 573, ../sass/programmagids.scss */
+#main_container.ects .level_4 li a {
+  color: #074a56;
+}
+
+/* Titles
+ * - gebruikt op start pagina ++
+ * - gebruikt op fac pagina
+ */
+/* line 581, ../sass/programmagids.scss */
+#main_container.start h2,
+#main_container.fac h2 {
+  margin: 10px 0 10px 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* line 588, ../sass/programmagids.scss */
+#main_container.start h2 .extraheading,
+#main_container.fac h2 .extraheading {
+  margin: 10px 0 10px 0;
+  font-size: 1.5em;
+  font-weight: normal;
+  color: #5b5a5a;
+}
+
+/* line 595, ../sass/programmagids.scss */
+#main_container.start .level_0 h1,
+#main_container.fac .level_0 h1 {
+  display: none;
+  /* actual title used in the hover bar */
+}
+
+/* line 600, ../sass/programmagids.scss */
+#main_container.start .level_1 h2,
+#main_container.fac .level_1 h2 {
+  margin: 2px 0 0 0;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* line 607, ../sass/programmagids.scss */
+#main_container.start .level_2 h3,
+#main_container.fac .level_2 h3 {
+  margin: 5px 0 0 0;
+  padding: 4px 7px 4px 9px;
+  font-size: 1.3em;
+}
+
+/* line 613, ../sass/programmagids.scss */
+#main_container.start .level_2 h3.mandatory,
+#main_container.fac .level_2 h3.mandatory {
+  background: #00a5c5;
+  font-size: 1em;
+}
+
+/* line 618, ../sass/programmagids.scss */
+#main_container.start .level_2 h3.mandatory .titlebold,
+#main_container.fac .level_2 h3.mandatory .titlebold {
+  background: #00a5c5;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* line 624, ../sass/programmagids.scss */
+#main_container.start .level_2 h3.optional,
+#main_container.fac .level_2 h3.optional {
+  background: #00a5c5;
+}
+
+/* line 628, ../sass/programmagids.scss */
+#main_container.start .level_2 h3 a,
+#main_container.fac .level_2 h3 a {
+  color: #ffffff;
+  text-decoration: none;
+  border: 0;
+}
+
+/* line 634, ../sass/programmagids.scss */
+#main_container.start .level_3 h4,
+#main_container.fac .level_3 h4 {
+  margin: 7px 9px 0px 9px;
+  padding: 4px 5px 5px 5px;
+  background-color: #00a5c5;
+  font-size: 1em;
+}
+
+/* line 641, ../sass/programmagids.scss */
+#main_container.start .level_3 h4.mandatory,
+#main_container.fac .level_3 h4.mandatory {
+  background: #89cfde;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+/* line 647, ../sass/programmagids.scss */
+#main_container.start .level_3 h4.mandatory .titlebold,
+#main_container.fac .level_3 h4.mandatory .titlebold {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* line 652, ../sass/programmagids.scss */
+#main_container.start .level_3 h4.alle_opleidingen,
+#main_container.start .level_3 h4.optional,
+#main_container.fac .level_3 h4.optional {
+  background: #ddf1f6;
+  padding: 4px 5px 5px 7px;
+  margin: 7px 0 0 0;
+  font-size: 1em;
+  color: #074a56;
+}
+
+/* line 661, ../sass/programmagids.scss */
+#main_container.start .level_3 h4.alle_opleidingen a,
+#main_container.start .level_3 h4.optional a,
+#main_container.fac .level_3 h4.optional a {
+  color: #074a56;
+  text-decoration: none;
+  background: #ddf1f6;
+}
+
+/* line 668, ../sass/programmagids.scss */
+#main_container.start .level_3 h4.optional_faculteitspagina,
+#main_container.fac .level_3 h4.optional_faculteitspagina {
+  background: #ddf1f6;
+  padding: 4px 5px 5px 7px;
+  margin: 0 0 5px 0;
+  font-size: 1em;
+  color: #074a56;
+}
+
+/* line 676, ../sass/programmagids.scss */
+#main_container.start .level_3 h4.optional_faculteitspagina a,
+#main_container.fac .level_3 h4.optional_faculteitspagina a {
+  color: #074a56;
+  text-decoration: none;
+  background: #ddf1f6;
+}
+
+/* line 682, ../sass/programmagids.scss */
+#main_container.start .level_3 h4 a,
+#main_container.fac .level_3 h4 a {
+  color: #ffffff;
+  text-decoration: none;
+  border: 0;
+}
+
+/* TODO: OBSOLETE CSS?
+#main_container.start .level_4 h5 {
+  margin: 2px 0 0 0;
+  padding: 4px 5px 5px 37px;
+  background-color: #787878;
+  font-size: 1em;
+}
+#main_container.start .level_4 h5.mandatory {
+  background: #71bad3 url(../images/icons/icon-h5-m.gif) no-repeat 8px center;
+}
+#main_container.start .level_4 h5.optional {
+  background: #71bad3 url(../images/icons/icon-h5-o.gif) no-repeat 8px center;
+}
+#main_container.start .level_4 h5 a {
+  color: #ffffff;
+  text-decoration: none;
+  border: 0;
+}*/
+/* TODO: OBSOLETE CSS?
+#main_container.start .level_5 h6 {
+  margin: 2px 0 0 0;
+  padding: 4px 5px 5px 47px;
+  background-color: #adadad;
+  font-size: 1em;
+}
+#main_container.start .level_5 h6.mandatory {
+  background: #90c6db url(../images/icons/icon-h6-m.gif) no-repeat 8px center;
+}
+#main_container.start .level_5 h6.optional {
+  background: #90c6db url(../images/icons/icon-h6-o.gif) no-repeat 8px center;
+}
+#main_container.start .level_5 h6 a {
+  color: #ffffff;
+  text-decoration: none;
+  border: 0;
+}*/
+/* line 724, ../sass/programmagids.scss */
+#main_container.start .level_3 img.start_optional,
+#main_container.fac .level_3 img.start_optional {
+  padding: 5px 0 0 6px;
+}
+
+/* line 728, ../sass/programmagids.scss */
+#main_container.start .level_4 ul,
+#main_container.fac .level_4 ul {
+  padding: 0 0 0 14px;
+}
+
+/* line 733, ../sass/programmagids.scss */
+#main_container.start .level_4 li,
+#main_container.fac .level_4 li {
+  list-style: square;
+  padding: 0;
+}
+
+/* line 738, ../sass/programmagids.scss */
+#main_container.start .level_4 li a,
+#main_container.fac .level_4 li a {
+  color: #074a56;
+}
+
+/* Titles
+ * - gebruikt op sc pagina ++
+ */
+/* line 746, ../sass/programmagids.scss */
+#main_container.traject .level_0 h1 {
+  display: none;
+  /* actual title used in the hover bar */
+}
+
+/* line 750, ../sass/programmagids.scss */
+#main_container.traject .level_1 h2 {
+  margin: 2px 0 0 0;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* line 756, ../sass/programmagids.scss */
+#main_container.traject .level_2 h3 {
+  margin: 2px 0 0 0;
+  padding: 4px 7px 5px 10px;
+  font-weight: bold;
+  font-size: 1.3em;
+  background: #00a5c5;
+}
+
+/* line 763, ../sass/programmagids.scss */
+#main_container.traject .level_2 h3 a {
+  color: #ffffff;
+  text-decoration: none;
+  border: 0;
+}
+
+/* line 768, ../sass/programmagids.scss */
+#main_container.traject .level_3 h4 {
+  margin: 2px 0 0 0;
+  padding: 4px 5px 5px 10px;
+  background-color: #86CFE0;
+  font-weight: bold;
+  font-size: 1.2em;
+  background: #4dafcc;
+}
+
+/* line 776, ../sass/programmagids.scss */
+#main_container.traject .level_3 h4 a {
+  color: #ffffff;
+  text-decoration: none;
+  border: 0;
+}
+
+/* line 781, ../sass/programmagids.scss */
+#main_container.traject .level_4 h5 {
+  margin: 2px 0 0 0;
+  padding: 4px 5px 5px 10px;
+  background-color: #787878;
+  font-weight: bold;
+  font-size: 1em;
+  background: #71bad3;
+}
+
+/* line 789, ../sass/programmagids.scss */
+#main_container.traject .level_4 h5 a {
+  color: #ffffff;
+  text-decoration: none;
+  border: 0;
+}
+
+/* line 794, ../sass/programmagids.scss */
+#main_container.traject .level_5 h6 {
+  margin: 2px 0 0 0;
+  padding: 4px 5px 5px 10px;
+  background-color: #adadad;
+  font-weight: bold;
+  font-size: 1em;
+  background: #90c6db;
+}
+
+/* line 802, ../sass/programmagids.scss */
+#main_container.traject .level_5 h6 a {
+  color: #ffffff;
+  text-decoration: none;
+  border: 0;
+}
+
+/* line 807, ../sass/programmagids.scss */
+#main_container.traject .level_2 h3 a img,
+#main_container.traject .level_3 h4 a img,
+#main_container.traject .level_4 h5 a img,
+#main_container.traject .level_5 h6 a img {
+  padding: 0.1em 5px 0.1em 0;
+}
+
+/* ############################## */
+/* Level boxes
+ * - gebruikt op sc en ects pagina
+ */
+/* line 819, ../sass/programmagids.scss */
+#main_container.traject .level_0 .level_1 {
+  padding: 0.8333333em;
+  border: 1px solid #bcbfbf;
+  background-color: #FFFFFF;
+  position: relative;
+}
+
+/* line 825, ../sass/programmagids.scss */
+#main_container.traject .level_0 .level_1.selectie {
+  /* specific for the selectie tab */
+  padding: 0px;
+}
+
+/* line 829, ../sass/programmagids.scss */
+#main_container.traject .level_1 .level_2 {
+  padding: 0 0 0 0;
+  /* taken care of through hover target container */
+}
+
+/* line 833, ../sass/programmagids.scss */
+#main_container.traject li.cg.lilevel_2 {
+  margin-bottom: 0.8333333em;
+}
+
+/* line 836, ../sass/programmagids.scss */
+#main_container.traject li.cg.lilevel_2:last-child {
+  margin-bottom: 0;
+}
+
+/* line 839, ../sass/programmagids.scss */
+#main_container.traject .level_2 .level_3 {
+  padding: 0.8333333em;
+  border: 1px solid #bcbfbf;
+  border-width: 0 1px 1px 1px;
+}
+
+/* line 844, ../sass/programmagids.scss */
+#main_container.traject li.cg.lilevel_3 {
+  margin-bottom: 0.8333333em;
+}
+
+/* line 847, ../sass/programmagids.scss */
+#main_container.traject li.cg.lilevel_3:last-child {
+  margin-bottom: 0;
+}
+
+/* line 850, ../sass/programmagids.scss */
+#main_container.traject .level_3 .level_4 {
+  padding: 0.8333333em;
+  border: 1px solid #bcbfbf;
+  border-width: 0 1px 1px 1px;
+  background-color: #fafafa;
+}
+
+/* line 856, ../sass/programmagids.scss */
+#main_container.traject li.cg.lilevel_4 {
+  margin-bottom: 0.8333333em;
+}
+
+/* line 859, ../sass/programmagids.scss */
+#main_container.traject li.cg.lilevel_4:last-child {
+  margin-bottom: 0;
+}
+
+/* line 862, ../sass/programmagids.scss */
+#main_container.traject .level_4 .level_5 {
+  padding: 0.8333333em;
+  border: 1px solid #bcbfbf;
+  border-width: 0 1px 1px 1px;
+  background-color: #eeeeee;
+}
+
+/* line 868, ../sass/programmagids.scss */
+#main_container.traject li.cg.lilevel_5 {
+  margin-bottom: 0.8333333em;
+}
+
+/* line 871, ../sass/programmagids.scss */
+#main_container.traject li.cg.lilevel_5:last-child {
+  margin-bottom: 0;
+}
+
+/* line 874, ../sass/programmagids.scss */
+#main_container.traject .level_5 .level_6 {
+  padding: 0.8333333em;
+  border: 1px solid #bcbfbf;
+  border-width: 0 1px 1px 1px;
+  background-color: #fafafa;
+}
+
+/* line 881, ../sass/programmagids.scss */
+#main_container.ects .level_0 {
+  padding: 10px 10px 6px;
+  border: 1px solid #bcbfbf;
+  background-color: #FFFFFF;
+  position: relative;
+}
+
+/* line 887, ../sass/programmagids.scss */
+#main_container.ects .level_fiche {
+  margin: 0;
+  border: 1px solid #bcbfbf;
+  background-color: #fafdfe;
+  position: relative;
+  padding: 8px 10px 4px;
+}
+
+/* line 894, ../sass/programmagids.scss */
+#main_container.ects .level_fiche_blok {
+  padding: 5px 5px 2px 5px;
+  margin: 5px 0 10px 0;
+  border: 0px solid #bcbfbf;
+  background-color: #fff;
+  position: relative;
+}
+
+/* line 901, ../sass/programmagids.scss */
+#main_container.ects .level_2 {
+  padding: 0 0 10px;
+  /* taken care of through hover target container */
+}
+
+/* line 905, ../sass/programmagids.scss */
+#main_container.ects .level_2:last-child {
+  padding: 0 0 4px;
+  /* taken care of through hover target container */
+}
+
+/* line 910, ../sass/programmagids.scss */
+#main_container.ects .level_3 {
+  padding: 0px;
+  margin: 0 0 0 0;
+  border: 0px solid #bcbfbf;
+}
+
+/* line 916, ../sass/programmagids.scss */
+#main_container.ects .level_4 {
+  padding: 10px;
+  margin: 0 9px 0 9px;
+  border: 1px solid #bcbfbf;
+  border-width: 0 1px 1px 1px;
+  background-color: #fafafa;
+}
+
+/* line 924, ../sass/programmagids.scss */
+#main_container.start .level_2 .level_3,
+#main_container.fac .level_2 .level_3 {
+  padding: 0 0 0 0;
+  border: 1px solid #bcbfbf;
+  border-top: 1px solid #00A5C5;
+}
+
+/* line 930, ../sass/programmagids.scss */
+#main_container.fac .level_2 .level_3 {
+  padding-bottom: 10px;
+}
+
+/* line 933, ../sass/programmagids.scss */
+#main_container.start .level_3,
+#main_container.fac .level_3 {
+  padding: 10px;
+  margin: 0 0 0 0;
+  border: 1px solid #bcbfbf;
+  border-width: 0 1px 1px 1px;
+  background-color: #fafafa;
+}
+
+/* line 941, ../sass/programmagids.scss */
+#main_container.start .level_4,
+#main_container.fac .level_4 {
+  padding: 10px;
+  margin: 0 9px 0 9px;
+  border: 1px solid #bcbfbf;
+  border-width: 0 1px 1px 1px;
+  background-color: #fafafa;
+}
+
+/* Hover bar
+ * - gebruikt op sc en ects pagina
+ */
+/* line 953, ../sass/programmagids.scss */
+#main_container #hover_selectie_content {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+/* line 960, ../sass/programmagids.scss */
+#main_container #hover_selectie_content h1 {
+  margin: 0;
+  padding: 8px 220px 8px 10px;
+  border: 0px none;
+  background-color: #edf9f9;
+  display: block;
+  /* make sure title is visible */
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-bottom-style: none;
+  min-height: 45px;
+  height: auto !important;
+  height: 45px;
+}
+
+/* line 975, ../sass/programmagids.scss */
+#main_container #hover_selectie_content h1 .studiepunten {
+  color: #18a4c2;
+  font-size: 0.9em;
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+/* line 981, ../sass/programmagids.scss */
+#main_container #hover_selectie_content h1 .specification {
+  color: #444;
+  display: block;
+  margin-top: .3em;
+  font-size: .9em;
+}
+
+/* line 987, ../sass/programmagids.scss */
+#main_container #hover_selectie_content h1.fourfases {
+  /* only used as long as 4 fases is possible */
+  padding: 8px 300px 8px 10px;
+}
+
+/* line 990, ../sass/programmagids.scss */
+#main_container #hover_selectie_content #show_uurrooster_container {
+  margin: 0;
+  position: absolute;
+  top: 35px;
+  right: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #414546;
+}
+
+/* line 999, ../sass/programmagids.scss */
+#main_container #hover_selectie_content #show_uurrooster_container a {
+  text-decoration: none;
+  color: #414546;
+  border: 0;
+}
+
+/* line 1004, ../sass/programmagids.scss */
+#main_container #hover_selectie_content #show_uurrooster_container a img {
+  height: 1em;
+  padding: 0 0 0 0.5em;
+}
+
+/* line 1008, ../sass/programmagids.scss */
+#main_container #hover_selectie_content #filter_fase_container {
+  margin: 0;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #5F6364;
+  padding: 0;
+}
+
+/* line 1018, ../sass/programmagids.scss */
+#main_container #hover_selectie_content #filter_fase_container #filter_fase_form {
+  margin: 0;
+  padding: 4px 0 5px 0;
+  background-color: #EDF9F9;
+}
+
+/* line 1023, ../sass/programmagids.scss */
+#main_container #hover_selectie_content #filter_fase_container #filter_fase_form span {
+  margin: 0;
+  margin-left: 10px;
+}
+
+/* line 1027, ../sass/programmagids.scss */
+#main_container #hover_selectie_content #filter_fase_container #filter_fase_form input {
+  margin: 0;
+}
+
+/* line 1030, ../sass/programmagids.scss */
+#main_container #hover_selectie_content #filter_fase_container label {
+  float: none;
+  margin-right: 0;
+  padding: 2px;
+}
+
+/* line 1035, ../sass/programmagids.scss */
+#main_container #hover_selectie_content #filter_category_container {
+  margin: 0;
+  padding: 10px;
+  border: 0px none #eeeeee;
+  background-color: #DCF1F6;
+}
+
+/* line 1041, ../sass/programmagids.scss */
+#main_container #hover_selectie_content #filter_category_container #filter_category_form {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1045, ../sass/programmagids.scss */
+#main_container #hover_selectie_content #filter_category_container input {
+  *position: relative;
+  *top: -26px;
+  margin: 0;
+  padding: 3px;
+  float: right;
+  display: inline;
+  height: 24px;
+  width: 20%;
+  border: 1px solid #89cfde;
+  background-color: #00A5C5;
+  color: #FFFFFF;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+/* line 1061, ../sass/programmagids.scss */
+#main_container #hover_selectie_content #filter_category_container input:hover {
+  background-color: #00A5C5;
+}
+
+/* line 1064, ../sass/programmagids.scss */
+#main_container #hover_selectie_content #filter_category_container select {
+  margin: 0 12px 0 0;
+  padding: 3px;
+  float: left;
+  display: inline;
+  height: 24px;
+  width: 24%;
+}
+
+/* line 1072, ../sass/programmagids.scss */
+#main_container #hover_selectie_content #filter_category_container select:focus {
+  outline: 0;
+}
+
+/* line 1075, ../sass/programmagids.scss */
+#main_container #hover_selectie_content #filter_category_container select.part_of_1 {
+  width: 76%;
+}
+
+/* line 1078, ../sass/programmagids.scss */
+#main_container #hover_selectie_content #filter_category_container select.part_of_2 {
+  width: 37%;
+}
+
+/* line 1081, ../sass/programmagids.scss */
+#main_container #hover_selectie_content #filter_category_container select.part_of_3 {
+  width: 24%;
+}
+
+/* line 1084, ../sass/programmagids.scss */
+#main_container #hover_selectie_target {
+  padding: 10px;
+}
+
+/* line 1087, ../sass/programmagids.scss */
+#main_container #hover_selectie_parent {
+  z-index: 1;
+}
+
+/* line 1090, ../sass/programmagids.scss */
+#main_container #hover_selectie_target_ects {
+  margin-top: 5px;
+  padding: 0;
+}
+
+/* line 1094, ../sass/programmagids.scss */
+#main_container #hover_selectie_spaceholder {
+  margin-bottom: 5px;
+}
+
+/* Globaal toggelen
+ * - gebruikt op de sc en ects pagina
+ * - gebruikt op de fac pagina
+ */
+/* line 1102, ../sass/programmagids.scss */
+#main_container.traject #toggle_container {
+  margin: 0 7px 0 0;
+  float: right;
+  clear: both;
+}
+
+/* line 1107, ../sass/programmagids.scss */
+#main_container.ects #toggle_container {
+  margin: 14px 0 0 0;
+  float: right;
+  clear: both;
+}
+
+/* line 1112, ../sass/programmagids.scss */
+#main_container.fac #toggle_container {
+  margin: 0 7px 0 0;
+  float: right;
+  clear: both;
+}
+
+/* line 1117, ../sass/programmagids.scss */
+#main_container #toggle_container #show_all {
+  display: none;
+}
+
+/* line 1120, ../sass/programmagids.scss */
+#main_container #toggle_container .toggle_all a {
+  margin: 0;
+  padding-right: 15px;
+  border-bottom: 0 none;
+  /* 1px dotted #014958; */
+  color: #014958;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* line 1129, ../sass/programmagids.scss */
+#main_container #toggle_container #show_all a {
+  background: url("../images/icons/icon-pijl-color-down.png") no-repeat center right;
+}
+
+/* line 1132, ../sass/programmagids.scss */
+#main_container #toggle_container #hide_all a {
+  background: url("../images/icons/icon-pijl-color-up.png") no-repeat center right;
+}
+
+/* Headings toggelen
+ * - gebruikt op de sc en ects pagina
+ */
+/* line 1139, ../sass/programmagids.scss */
+#main_container.traject h3 a,
+#main_container.traject h4 a,
+#main_container.traject h5 a,
+#main_container.traject h6 a,
+#main_container.start h3 a,
+#main_container.start h4 a,
+#main_container.start h5 a,
+#main_container.start h6 a,
+#main_container.fac h3 a,
+#main_container.fac h4 a,
+#main_container.fac h5 a,
+#main_container.fac h6 a,
+#main_container.ects h3 a,
+#main_container.ects h4 a,
+#main_container.ects h5 a,
+#main_container.ects h6 a {
+  display: block;
+  padding-right: 20px;
+  background: url("../images/icons/icon-pijl-white-up.png") no-repeat right center;
+}
+
+/* line 1159, ../sass/programmagids.scss */
+#main_container.traject h3 a.user_link_closed,
+#main_container.traject h4 a.user_link_closed,
+#main_container.traject h5 a.user_link_closed,
+#main_container.traject h6 a.user_link_closed,
+#main_container.start h3 a.user_link_closed,
+#main_container.start h4 a.user_link_closed,
+#main_container.start h5 a.user_link_closed,
+#main_container.start h6 a.user_link_closed,
+#main_container.fac h3 a.user_link_closed,
+#main_container.fac h4 a.user_link_closed,
+#main_container.fac h5 a.user_link_closed,
+#main_container.fac h6 a.user_link_closed,
+#main_container.ects h3 a.user_link_closed,
+#main_container.ects h4 a.user_link_closed,
+#main_container.ects h5 a.user_link_closed,
+#main_container.ects h6 a.user_link_closed {
+  background: url("../images/icons/icon-pijl-white-down.png") no-repeat right center;
+}
+
+/* line 1177, ../sass/programmagids.scss */
+#main_container.traject .level_3.user_target_closed,
+#main_container.traject .level_4.user_target_closed,
+#main_container.traject .level_5.user_target_closed,
+#main_container.traject .level_6.user_target_closed,
+#main_container.start .level_3.user_target_closed,
+#main_container.start .level_4.user_target_closed,
+#main_container.start .level_5.user_target_closed,
+#main_container.start .level_6.user_target_closed,
+#main_container.fac .level_3.user_target_closed,
+#main_container.fac .level_4.user_target_closed,
+#main_container.fac .level_5.user_target_closed,
+#main_container.fac .level_6.user_target_closed,
+#main_container.ects .level_3.user_target_closed,
+#main_container.ects .level_4.user_target_closed,
+#main_container.ects .level_5.user_target_closed,
+#main_container.ects .level_6.user_target_closed {
+  display: none;
+}
+
+/* Tabellen
+ * - gebruikt op de sc pagina
+ */
+/* line 1199, ../sass/programmagids.scss */
+#main_container table {
+  font-size: 1em;
+}
+
+/* line 1202, ../sass/programmagids.scss */
+#main_container .level_2 table {
+  margin: 0 43px;
+}
+
+/* line 1205, ../sass/programmagids.scss */
+#main_container .level_3 table {
+  margin: 0 33px;
+}
+
+/* line 1208, ../sass/programmagids.scss */
+#main_container .level_4 table {
+  margin: 0 23px;
+}
+
+/* line 1211, ../sass/programmagids.scss */
+#main_container .level_5 table {
+  margin: 0 13px;
+}
+
+/* line 1214, ../sass/programmagids.scss */
+#main_container .level_6 table {
+  margin: 0;
+}
+
+/* line 1217, ../sass/programmagids.scss */
+#main_container th {
+  font-weight: normal;
+  text-align: left;
+}
+
+/* line 1221, ../sass/programmagids.scss */
+#main_container td {
+  font-weight: normal;
+  text-align: left;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  border: 0;
+  background-color: transparent;
+}
+
+/* line 1230, ../sass/programmagids.scss */
+#main_container td.uren {
+  color: #8b8b8b;
+  text-align: right;
+  padding-right: 20px;
+}
+
+/* line 1236, ../sass/programmagids.scss */
+#main_container td.sp {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: right;
+  color: #646464;
+  width: 50px;
+  /* update Peter Helsen 120712 --> anders past ECTS er niet in */
+  padding-right: 8px;
+}
+
+/* line 1244, ../sass/programmagids.scss */
+#main_container td.opo, #main_container td.opleidingsonderdeel {
+  width: 320px;
+}
+
+/* line 1251, ../sass/programmagids.scss */
+#main_container tr.ola_row .ola {
+  border-left: 1px solid #cccccc;
+  color: #8b8b8b;
+}
+
+/* line 1255, ../sass/programmagids.scss */
+#main_container tr.ola_row td.sp {
+  padding-bottom: 15px;
+  font-weight: normal;
+  font-style: normal;
+  color: #8b8b8b;
+}
+
+/* line 1261, ../sass/programmagids.scss */
+#main_container tr.ola_row td.code {
+  color: #8b8b8b;
+}
+
+/* line 1266, ../sass/programmagids.scss */
+#main_container tr.sc_row td.sc {
+  width: 568px;
+}
+
+/* line 1269, ../sass/programmagids.scss */
+#main_container td.fase,
+#main_container td.sem,
+#main_container td.freq,
+#main_container td.loc,
+#main_container td.extra {
+  margin: 0;
+  padding: 0;
+  width: 28px;
+}
+
+/* line 1278, ../sass/programmagids.scss */
+#main_container td.fase a,
+#main_container td.sem a,
+#main_container td.freq a,
+#main_container td.loc a,
+#main_container td.extra a {
+  margin: 2px 0 0 0;
+  padding: 0;
+  display: block;
+  border: 0;
+  height: 17px;
+  width: 16px;
+  cursor: default;
+}
+
+/* line 1291, ../sass/programmagids.scss */
+#main_container td.code {
+  color: #8C8C8C;
+  font-family: "Courier New", Courier, mono;
+  font-weight: bold;
+  width: 56px;
+  text-align: center;
+}
+
+/* line 1298, ../sass/programmagids.scss */
+#main_container td.docent {
+  margin: 0;
+  padding: 0;
+  width: 19px;
+}
+
+/* line 1303, ../sass/programmagids.scss */
+#main_container td.docent a {
+  margin: 3px 0 0 0;
+  padding: 0;
+  display: block;
+  text-indent: -9999px;
+  border-bottom-style: none;
+  height: 11px;
+  width: 19px;
+  cursor: default;
+  background: url("../images/docenten_sprite.png") no-repeat;
+  background-position: 0 0;
+  border: 0;
+}
+
+/* line 1316, ../sass/programmagids.scss */
+#main_container td.docent a:hover,
+#main_container td.docent a:focus {
+  background-position: 0 -11px;
+}
+
+/* line 1320, ../sass/programmagids.scss */
+#main_container.traject td img,
+#main_container.traject td.opo img,
+#main_container.traject td.opleidingsonderdeel img,
+#main_container.traject td.fase img,
+#main_container.traject td.sem img,
+#main_container.traject td.freq img,
+#main_container.traject td.loc img,
+#main_container.traject td.extra img,
+#main_container.traject td.docent img {
+  height: 1.2em;
+}
+
+/* line 1332, ../sass/programmagids.scss */
+#main_container.ects span img,
+#main_container.ects span.opo img,
+#main_container.ects span.opleidingsonderdeel img,
+#main_container.ects span.fase img,
+#main_container.ects span.sem img,
+#main_container.ects span.freq img,
+#main_container.ects span.loc img,
+#main_container.ects span.extra img,
+#main_container.ects span.docent img {
+  height: 1.2em;
+}
+
+/* Legende tabel
+ * - gebruikt op de sc en ects pagina
+ * - extra div voor de id wordt gebruikt om de specificiteit van de huisstijl te overrulen
+ */
+/* line 1348, ../sass/programmagids.scss */
+#legende_view {
+  margin: 0;
+  padding: 10px 0;
+  border: 0;
+  font-size: 14px;
+}
+
+/* line 1354, ../sass/programmagids.scss */
+div#legende_view ul {
+  margin: 0;
+  padding: 5px;
+  border: 1px solid #EEEEEE;
+  background-color: #FAFAFA;
+}
+
+/* line 1359, ../sass/programmagids.scss */
+#legende_view ul li {
+  margin: 0 0 2px 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+}
+
+/* line 1364, ../sass/programmagids.scss */
+#legende_view ul li a,
+#subnav #legende_view ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  font-size: 1em;
+  vertical-align: top;
+  line-height: 1.5em;
+  color: #000000;
+  text-decoration: none !important;
+}
+
+/* line 1375, ../sass/programmagids.scss */
+#legende_view ul li a img {
+  display: inline;
+  height: 1.2em;
+}
+
+/* line 1379, ../sass/programmagids.scss */
+#legende_view ul li a:hover,
+#legende_view ul li a:focus {
+  background-color: transparent;
+}
+
+/* Tooltips
+ * - gebruikt op de sc en ects pagina
+ */
+/* line 1387, ../sass/programmagids.scss */
+div.tooltip {
+  margin: 0;
+  padding: 5;
+  display: none;
+  background: #FFFFFF;
+  border: 3px solid #646464;
+  border-radius: 5px;
+  width: 270px;
+}
+
+/* line 1396, ../sass/programmagids.scss */
+div.tooltip h6 {
+  margin: 0;
+  padding: 5px;
+  font-size: 1.2em;
+  background: #F5F5F5;
+  border-radius: 5px 5px 0 0;
+  font-weight: bold;
+}
+
+/* line 1404, ../sass/programmagids.scss */
+div.tooltip p {
+  padding: 5px;
+  font-size: 1.1em;
+}
+
+/* line 1408, ../sass/programmagids.scss */
+div.tooltip ul {
+  padding: 5px;
+}
+
+/* line 1411, ../sass/programmagids.scss */
+div.tooltip li {
+  padding: 0 10px 0 0;
+  display: inline;
+  float: left;
+  white-space: nowrap;
+  font-size: 1em;
+}
+
+/* line 1418, ../sass/programmagids.scss */
+div.tooltip_larrow {
+  margin-top: -5px !important;
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  height: 0;
+  width: 0;
+  border: 5px solid transparent;
+  border-color: transparent #646464 transparent transparent;
+}
+
+/* line 1428, ../sass/programmagids.scss */
+div.tooltip_rarrow {
+  margin-top: -5px !important;
+  position: absolute;
+  top: 50%;
+  right: -10px;
+  height: 0;
+  width: 0;
+  border: 5px solid transparent;
+  border-color: transparent transparent transparent #646464;
+}
+
+/* Tabs
+ * - gebruikt op sc en ects pagina's
+ */
+/* line 1442, ../sass/programmagids.scss */
+#main_container .tabs ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  position: relative;
+}
+
+/* line 1449, ../sass/programmagids.scss */
+#main_container .tabs ul li {
+  float: left;
+  background-color: #fff;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  list-style: none;
+}
+
+/* line 1456, ../sass/programmagids.scss */
+#main_container .tabs h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1em;
+  display: inline;
+}
+
+/* line 1463, ../sass/programmagids.scss */
+#main_container .tabs h2 a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  padding: 4px 8px 4px 20px;
+  border: 1px solid #eee;
+  color: #646464;
+  background: #f9f9f9 url(../images/icons/icon-pijl-color-down-40pct.png) no-repeat 3px 3px;
+}
+
+/* line 1474, ../sass/programmagids.scss */
+#main_container .tabs h2 a:hover,
+#main_container .tabs h2 a:focus {
+  background: #f9f9f9 url(../images/icons/icon-pijl-color-down.png) no-repeat 3px 3px;
+}
+
+/* line 1478, ../sass/programmagids.scss */
+#main_container .tabs .active h2 a {
+  border: 1px solid #9c9d9e;
+  color: #000;
+  background: #e8f6f6 url(../images/icons/icon-pijl-color-down.png) no-repeat 3px 3px;
+}
+
+/* line 1483, ../sass/programmagids.scss */
+#main_container .tabs ul li.no_tab p {
+  margin-right: 0;
+  padding: 8px;
+  position: absolute;
+  right: 0;
+  color: #999999;
+}
+
+/* line 1490, ../sass/programmagids.scss */
+#main_container .tabs .active {
+  color: #000000;
+  border-bottom-style: none;
+}
+
+/* line 1494, ../sass/programmagids.scss */
+#main_container .tab_content {
+  display: none;
+}
+
+/* line 1497, ../sass/programmagids.scss */
+#main_container .tab_content {
+  padding: 10px;
+  border: 1px solid #C4C4C4;
+}
+
+/* line 1501, ../sass/programmagids.scss */
+#main_container .tab_content.active {
+  display: block;
+}
+
+/* line 1504, ../sass/programmagids.scss */
+#main_container .tab_content p a {
+  color: #074a56;
+  font-weight: bold;
+}
+
+/* Share container
+ * - gebruikt op de sc en ects pagina
+ */
+/* line 1512, ../sass/programmagids.scss */
+#share_container {
+  margin: 0;
+  padding: 10px 0 10px 10px;
+  float: right;
+}
+
+/* line 1517, ../sass/programmagids.scss */
+#share_container li {
+  display: inline;
+  float: left;
+  margin: 0;
+  padding: 0 10px 10px;
+}
+
+/* line 1523, ../sass/programmagids.scss */
+#share_container a.share {
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-indent: -9999px;
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/share_container_sprite.jpg");
+  background-repeat: no-repeat;
+  border: 0;
+}
+
+/* line 1534, ../sass/programmagids.scss */
+#share_container a.share.mail {
+  background-position: 0 3px;
+}
+
+/* line 1537, ../sass/programmagids.scss */
+#share_container a.share.mail:hover {
+  background-position: 0 -17px;
+}
+
+/* line 1540, ../sass/programmagids.scss */
+#share_container a.share.print {
+  background-position: -60px 0;
+}
+
+/* line 1543, ../sass/programmagids.scss */
+#share_container a.share.print:hover {
+  background-position: -60px -20px;
+}
+
+/* line 1546, ../sass/programmagids.scss */
+#share_container a.share.pdf {
+  background-position: -80px 0;
+}
+
+/* line 1549, ../sass/programmagids.scss */
+#share_container a.share.pdf:hover {
+  background-position: -80px -20px;
+}
+
+/* line 1552, ../sass/programmagids.scss */
+#share_container a.share.tweet {
+  background-position: -40px 0;
+}
+
+/* line 1555, ../sass/programmagids.scss */
+#share_container a.share.tweet:hover {
+  background-position: -40px -20px;
+}
+
+/* line 1558, ../sass/programmagids.scss */
+#share_container a.share.facebook {
+  background-position: -20px 0;
+}
+
+/* line 1561, ../sass/programmagids.scss */
+#share_container a.share.facebook:hover {
+  background-position: -20px -20px;
+}
+
+/* Share container in sidebar // added by julie 12-2012 //
+ * - gebruikt op de sc en ects pagina
+ */
+/* line 1568, ../sass/programmagids.scss */
+#share-item {
+  position: relative;
+  height: 30px;
+}
+
+/* line 1572, ../sass/programmagids.scss */
+#share_view ul {
+  margin: 0;
+  padding: 0;
+  float: none;
+  display: block;
+  overflow: hidden;
+  width: 158px;
+  padding: 5px 0;
+  position: relative;
+  border: 1px solid #EEEEEE;
+  background-color: #FAFAFA;
+  border-top: none;
+}
+
+/* line 1585, ../sass/programmagids.scss */
+#share_view li {
+  padding: 5px 5px 2px 6px;
+}
+
+/* line 1588, ../sass/programmagids.scss */
+#share_view {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 14px;
+}
+
+/* Sidecontainer
+ * - gebruikt op de overzichts pagina
+ */
+/* line 1598, ../sass/programmagids.scss */
+#side_container {
+  float: right;
+  width: 25%;
+}
+
+/* line 1602, ../sass/programmagids.scss */
+#side_container ul li {
+  margin-bottom: 10px;
+  padding: 0;
+  background: #008CA7;
+}
+
+/* line 1607, ../sass/programmagids.scss */
+#side_container ul li a {
+  padding: 10px;
+  display: block;
+  border: 0;
+  border-right: 10px solid #6CB9C9;
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+/* line 1616, ../sass/programmagids.scss */
+#side_container ul li a:hover {
+  cursor: pointer;
+  border-right: 10px solid #CFE8ED;
+  color: #FFFFFF;
+}
+
+/* line 1621, ../sass/programmagids.scss */
+#side_container h1 {
+  margin-left: -20px;
+  padding-left: 20px;
+  background: transparent url(../images/icons/icon-icons/icon-pijl-traject.gif) no-repeat 0px center;
+}
+
+/* Clearfix
+ * - http://sonspring.com/journal/clearing-floats
+ * - http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack
+ */
+/* line 1631, ../sass/programmagids.scss */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* line 1639, ../sass/programmagids.scss */
+.clearfix:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* line 1649, ../sass/programmagids.scss */
+.clearfix {
+  display: inline-block;
+}
+
+/* line 1652, ../sass/programmagids.scss */
+* html .clearfix {
+  height: 1%;
+}
+
+/* line 1655, ../sass/programmagids.scss */
+.clearfix {
+  display: block;
+}
+
+/** proggids 2014 changeset */
+/* line 1661, ../sass/programmagids.scss */
+#main_container .breadcrumb_start {
+  margin-bottom: 10px;
+}
+
+/* line 1664, ../sass/programmagids.scss */
+#main_container.start form.filter fieldset input[type="reset"],
+#main_container #hover_selectie_content #filter_category_container input {
+  background: none;
+  color: #074a56;
+  text-decoration: underline;
+  border: 0;
+  cursor: pointer;
+  padding: 5px 0;
+}
+
+/* line 1672, ../sass/programmagids.scss */
+#main_container.start form.filter fieldset input[type="reset"]:hover,
+#main_container #hover_selectie_content #filter_category_container input:hover {
+  text-decoration: none;
+  background: transparent;
+}
+
+/*! Sidebar */
+/* line 1678, ../sass/programmagids.scss */
+#side_container h1 {
+  font-size: 18px;
+  line-height: 20px;
+  background-image: url(../images/icons/icon-pijl-traject.png);
+  margin-left: 0;
+  padding-left: 15px;
+}
+
+/* line 1684, ../sass/programmagids.scss */
+#side_container ul li a {
+  padding: 15px;
+}
+
+/*! Tabs */
+/* line 1688, ../sass/programmagids.scss */
+#main_container .tabs .tab h2 a {
+  padding: 4px 8px;
+  background: #f9f9f9;
+  color: #898989;
+}
+
+/* line 1692, ../sass/programmagids.scss */
+#main_container .tabs .tab h2 a:hover {
+  color: #138ba5;
+}
+
+/* line 1694, ../sass/programmagids.scss */
+#main_container .tabs .tab.active h2 a {
+  background: #fff;
+  color: #138ba5;
+  border-color: #eee;
+  position: relative;
+}
+
+/* line 1699, ../sass/programmagids.scss */
+#main_container .tab_content {
+  padding: 20px;
+  border: 1px solid #eee;
+}
+
+/*! Home */
+/* line 1704, ../sass/programmagids.scss */
+#main_container.traject h3,
+#main_container.traject h4,
+#main_container.traject h5,
+#main_container.traject h6, #main_container.start h3,
+#main_container.start h4,
+#main_container.start h5,
+#main_container.start h6, #main_container.fac h3,
+#main_container.fac h4,
+#main_container.fac h5,
+#main_container.fac h6, #main_container.ects h3,
+#main_container.ects h4,
+#main_container.ects h5,
+#main_container.ects h6 {
+  position: relative;
+}
+
+/* line 1718, ../sass/programmagids.scss */
+#main_container.traject h3 a,
+#main_container.traject h4 a,
+#main_container.traject h5 a,
+#main_container.traject h6 a, #main_container.start h3 a,
+#main_container.start h4 a,
+#main_container.start h5 a,
+#main_container.start h6 a, #main_container.fac h3 a,
+#main_container.fac h4 a,
+#main_container.fac h5 a,
+#main_container.fac h6 a, #main_container.ects h3 a,
+#main_container.ects h4 a,
+#main_container.ects h5 a,
+#main_container.ects h6 a {
+  background: none;
+}
+
+/* line 1732, ../sass/programmagids.scss */
+#main_container.traject h3 a:after,
+#main_container.traject h4 a:after,
+#main_container.traject h5 a:after,
+#main_container.traject h6 a:after, #main_container.start h3 a:after,
+#main_container.start h4 a:after,
+#main_container.start h5 a:after,
+#main_container.start h6 a:after, #main_container.fac h3 a:after,
+#main_container.fac h4 a:after,
+#main_container.fac h5 a:after,
+#main_container.fac h6 a:after, #main_container.ects h3 a:after,
+#main_container.ects h4 a:after,
+#main_container.ects h5 a:after,
+#main_container.ects h6 a:after {
+  display: inline-block;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #10798f url("../images/icons/icon-pijl-white-up.png") no-repeat center center;
+  width: 25px;
+}
+
+/* line 1753, ../sass/programmagids.scss */
+#main_container.traject h3 a.user_link_closed,
+#main_container.traject h4 a.user_link_closed,
+#main_container.traject h5 a.user_link_closed,
+#main_container.traject h6 a.user_link_closed, #main_container.start h3 a.user_link_closed,
+#main_container.start h4 a.user_link_closed,
+#main_container.start h5 a.user_link_closed,
+#main_container.start h6 a.user_link_closed, #main_container.fac h3 a.user_link_closed,
+#main_container.fac h4 a.user_link_closed,
+#main_container.fac h5 a.user_link_closed,
+#main_container.fac h6 a.user_link_closed, #main_container.ects h3 a.user_link_closed,
+#main_container.ects h4 a.user_link_closed,
+#main_container.ects h5 a.user_link_closed,
+#main_container.ects h6 a.user_link_closed {
+  background: none;
+}
+
+/* line 1767, ../sass/programmagids.scss */
+#main_container.traject h3 a.user_link_closed:after,
+#main_container.traject h4 a.user_link_closed:after,
+#main_container.traject h5 a.user_link_closed:after,
+#main_container.traject h6 a.user_link_closed:after, #main_container.start h3 a.user_link_closed:after,
+#main_container.start h4 a.user_link_closed:after,
+#main_container.start h5 a.user_link_closed:after,
+#main_container.start h6 a.user_link_closed:after, #main_container.fac h3 a.user_link_closed:after,
+#main_container.fac h4 a.user_link_closed:after,
+#main_container.fac h5 a.user_link_closed:after,
+#main_container.fac h6 a.user_link_closed:after, #main_container.ects h3 a.user_link_closed:after,
+#main_container.ects h4 a.user_link_closed:after,
+#main_container.ects h5 a.user_link_closed:after,
+#main_container.ects h6 a.user_link_closed:after {
+  background-image: url("../images/icons/icon-pijl-white-down.png");
+}
+
+/* line 1782, ../sass/programmagids.scss */
+#main_container.start .level_3 h4.optional,
+#main_container.fac .level_3 h4.optional {
+  background: #ddf1f6;
+}
+
+/* line 1786, ../sass/programmagids.scss */
+#main_container.start .level_3 h4.optional a,
+#main_container.fac .level_3 h4.optional a {
+  text-decoration: underline;
+  background: #ddf1f6;
+}
+
+/*! Diploma */
+/* line 1792, ../sass/programmagids.scss */
+#main_container.cq h1 {
+  font-size: 18px;
+  line-height: 1.25;
+  margin-bottom: 5px;
+}
+
+/* line 1796, ../sass/programmagids.scss */
+#main_container.cq p.specification {
+  margin-top: 0;
+  font-weight: normal;
+  color: #138ba5;
+}
+
+/*! Programma */
+/* line 1802, ../sass/programmagids.scss */
+#main_container.traject .level_0 .level_1 {
+  padding: 10px;
+}
+
+/* line 1805, ../sass/programmagids.scss */
+#main_container #hover_selectie_content h1 .specification {
+  color: #138ba5;
+  font-weight: normal;
+}
+
+/* line 1809, ../sass/programmagids.scss */
+#main_container.traject #toggle_container,
+#main_container.ects #toggle_container {
+  margin: 0;
+}
+
+/* line 1812, ../sass/programmagids.scss */
+#main_container.traject #toggle_container a,
+#main_container.ects #toggle_container a {
+  text-decoration: none;
+  border-bottom: 1px dotted #0C788B;
+  padding: 0;
+}
+
+/* line 1817, ../sass/programmagids.scss */
+#main_container.traject #toggle_container a:after,
+#main_container.ects #toggle_container a:after {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  background: #f3f3f3 url(../images/icons/icon-pijl-color-down.png) no-repeat center center;
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+}
+
+/* line 1826, ../sass/programmagids.scss */
+#main_container.traject #toggle_container a:hover,
+#main_container.ects #toggle_container a:hover {
+  border-bottom-style: solid;
+}
+
+/* line 1829, ../sass/programmagids.scss */
+#main_container.traject #toggle_container #hide_all a:after,
+#main_container.ects #toggle_container #hide_all a:after {
+  background-image: url(../images/icons/icon-pijl-color-up.png);
+}
+
+/* line 1832, ../sass/programmagids.scss */
+#main_container.traject #toggle_container #show_all a,
+#main_container.traject #toggle_container #hide_all a,
+#main_container.ects #toggle_container #show_all a,
+#main_container.ects #toggle_container #hide_all a {
+  background: none;
+}
+
+/*! traject */
+/* line 1839, ../sass/programmagids.scss */
+#main_container.traject .level_0 h1 {
+  display: block;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+/* line 1844, ../sass/programmagids.scss */
+#main_container.traject h1 .studiepunten {
+  color: #18a4c2;
+  font-size: 0.9em;
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+/* line 1850, ../sass/programmagids.scss */
+#main_container.traject h1 .specification {
+  color: #138ba5;
+  font-weight: normal;
+  display: block;
+  margin-top: .3em;
+  font-size: 14px;
+}
+
+/* line 1857, ../sass/programmagids.scss */
+#main_container.traject .level_2 h3 {
+  font-size: 14px;
+}
+
+/* line 1859, ../sass/programmagids.scss */
+#main_container.traject #hover_selectie_parent {
+  margin-bottom: 20px;
+}
+
+/* line 1861, ../sass/programmagids.scss */
+#main_container.traject #hover_selectie_content {
+  background: #fff;
+}
+
+/* line 1863, ../sass/programmagids.scss */
+#main_container.traject #hover_selectie_target {
+  padding: 0;
+}
+
+/* line 1866, ../sass/programmagids.scss */
+#main_container #hover_selectie_content #show_uurrooster_container,
+#main_container #hover_selectie_content span.seperator,
+#main_container #hover_selectie_content #filter_fase_container {
+  position: static;
+  float: left;
+  padding: 10px;
+}
+
+/* line 1872, ../sass/programmagids.scss */
+#main_container #hover_selectie_content #show_uurrooster_container #filter_fase_form,
+#main_container #hover_selectie_content span.seperator #filter_fase_form,
+#main_container #hover_selectie_content #filter_fase_container #filter_fase_form {
+  padding: 0;
+  background-color: transparent;
+}
+
+/* line 1878, ../sass/programmagids.scss */
+#main_container #hover_selectie_content #show_uurrooster_container img {
+  margin-right: 4px;
+}
+
+/* line 1881, ../sass/programmagids.scss */
+#main_container #hover_selectie_content span.seperator {
+  color: #dbe1e3;
+  padding: 10px 0;
+  font-weight: normal;
+}
+
+/* line 1886, ../sass/programmagids.scss */
+#main_container #hover_selectie_content #filter_fase_container #filter_fase_form span {
+  margin: 0;
+}
+
+/* line 1888, ../sass/programmagids.scss */
+#main_container #hover_selectie_content #filter_fase_container #filter_fase_form span + span {
+  margin-left: 10px;
+}
+
+/* line 1891, ../sass/programmagids.scss */
+#main_container #hover_selectie_content #filter_category_container {
+  clear: both;
+}
+
+/* line 1894, ../sass/programmagids.scss */
+.programma__header {
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+}
+
+/* line 1897, ../sass/programmagids.scss */
+#main_container.traject .programma__header h2 {
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+/* line 1901, ../sass/programmagids.scss */
+.programma__content {
+  padding: 10px;
+}
+
+/*! ects */
+/* line 1905, ../sass/programmagids.scss */
+#main_container.ects h4 {
+  margin-bottom: 6px;
+}
+
+/* line 1907, ../sass/programmagids.scss */
+#main_container.ects .level_0 {
+  border-color: #eee;
+}
+
+/* line 1909, ../sass/programmagids.scss */
+#main_container.ects .tab_content {
+  margin-bottom: 20px;
+}
+
+/* line 1911, ../sass/programmagids.scss */
+#main_container.ects #toggle_container {
+  position: relative;
+  z-index: 50;
+}
+
+/* line 1914, ../sass/programmagids.scss */
+#main_container.ects .level_2 h3.mandatory,
+#main_container.ects .level_2 h4.mandatory {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* line 1918, ../sass/programmagids.scss */
+#main_container.ects .level_2 h3.mandatory .titlebold,
+#main_container.ects .level_2 h4.mandatory .titlebold {
+  font-size: 14px;
+}
+
+/*! Icons */
+@font-face {
+  font-family: 'icons';
+  src: url("../fonts/icons.eot?4oksgt");
+  src: url("../fonts/icons.eot?#iefix4oksgt") format("embedded-opentype"), url("../fonts/icons.woff?4oksgt") format("woff"), url("../fonts/icons.ttf?4oksgt") format("truetype"), url("../fonts/icons.svg?4oksgt#icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 1929, ../sass/programmagids.scss */
+#main_container [class^="icon-"], #main_container [class*=" icon-"] {
+  font-family: 'icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 1939, ../sass/programmagids.scss */
+#main_container .icon-pdf:before {
+  content: "\70";
+}
+
+/* line 1941, ../sass/programmagids.scss */
+#main_container .icon-print:before {
+  content: "\50";
+}
+
+/* line 1943, ../sass/programmagids.scss */
+#main_container .icon-twitter:before {
+  content: "\74";
+}
+
+/* line 1945, ../sass/programmagids.scss */
+#main_container .icon-facebook:before {
+  content: "\66";
+}
+
+/* line 1947, ../sass/programmagids.scss */
+#main_container .icon-linkedin:before {
+  content: "\6c";
+}
+
+/* line 1949, ../sass/programmagids.scss */
+#main_container .icon-googleplus:before {
+  content: "\67";
+}
+
+/* line 1951, ../sass/programmagids.scss */
+#main_container .icon-addthis:before {
+  content: "\61";
+}
+
+/*! Share */
+/* line 1955, ../sass/programmagids.scss */
+.share_toolbox {
+  font-size: 11px;
+  font-weight: bold;
+  margin: 10px -10px;
+  color: #777;
+}
+
+/* line 1960, ../sass/programmagids.scss */
+.share_toolbox > span {
+  padding: 0 10px;
+}
+
+/* line 1962, ../sass/programmagids.scss */
+.share_toolbox > span + span {
+  border-left: 1px solid #777;
+}
+
+/* line 1964, ../sass/programmagids.scss */
+.share_toolbox a {
+  border-bottom: 0;
+  color: #074a56;
+}
+
+/* line 1967, ../sass/programmagids.scss */
+.share_toolbox .icon {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+  font-size: 22px;
+  color: #074a56;
+}
+
+/* line 1974, ../sass/programmagids.scss */
+.share_toolbox .icon-small {
+  font-size: 18px;
+}
+
+/* line 1976, ../sass/programmagids.scss */
+.share_toolbox a:first-child .icon {
+  margin-left: 5px;
+}
+
+/* line 1978, ../sass/programmagids.scss */
+.share_toolbox .icon-addthis {
+  color: #fb5b3b;
+}
