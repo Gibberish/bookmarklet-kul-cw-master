@@ -284,7 +284,7 @@ li.lilevel_5 a {
   padding-right: 25px;
   font-size: 1em;
   border: 1px solid #ddd;
-  background: #f5f5f5 url(../images/search_bg.png) right no-repeat;
+  background: #f5f5f5 url(https://onderwijsaanbod.kuleuven.be/resources/images/search_bg.png) right no-repeat;
 }
 
 /* line 237, ../sass/programmagids.scss */
@@ -660,10 +660,10 @@ select.start_select {
   font-size: 1em;
 }
 #main_container.ects .level_4 h5.mandatory {
-  background: #71bad3 url(../images/icons/icon-h5-m.gif) no-repeat 8px center;
+  background: #71bad3 url(https://onderwijsaanbod.kuleuven.be/resources/images/icons/icon-h5-m.gif) no-repeat 8px center;
 }
 #main_container.ects .level_4 h5.optional {
-  background: #71bad3 url(../images/icons/icon-h5-o.gif) no-repeat 8px center;
+  background: #71bad3 url(https://onderwijsaanbod.kuleuven.be/resources/images/icons/icon-h5-o.gif) no-repeat 8px center;
 }
 #main_container.ects .level_4 h5 a {
   color: #ffffff;
@@ -678,10 +678,10 @@ select.start_select {
   font-size: 1em;
 }
 #main_container.ects .level_5 h6.mandatory {
-  background: #90c6db url(../images/icons/icon-h6-m.gif) no-repeat 8px center;
+  background: #90c6db url(https://onderwijsaanbod.kuleuven.be/resources/images/icons/icon-h6-m.gif) no-repeat 8px center;
 }
 #main_container.ects .level_5 h6.optional {
-  background: #90c6db url(../images/icons/icon-h6-o.gif) no-repeat 8px center;
+  background: #90c6db url(https://onderwijsaanbod.kuleuven.be/resources/images/icons/icon-h6-o.gif) no-repeat 8px center;
 }
 #main_container.ects .level_5 h6 a {
   color: #ffffff;
@@ -857,10 +857,10 @@ select.start_select {
   font-size: 1em;
 }
 #main_container.start .level_4 h5.mandatory {
-  background: #71bad3 url(../images/icons/icon-h5-m.gif) no-repeat 8px center;
+  background: #71bad3 url(https://onderwijsaanbod.kuleuven.be/resources/images/icons/icon-h5-m.gif) no-repeat 8px center;
 }
 #main_container.start .level_4 h5.optional {
-  background: #71bad3 url(../images/icons/icon-h5-o.gif) no-repeat 8px center;
+  background: #71bad3 url(https://onderwijsaanbod.kuleuven.be/resources/images/icons/icon-h5-o.gif) no-repeat 8px center;
 }
 #main_container.start .level_4 h5 a {
   color: #ffffff;
@@ -875,10 +875,10 @@ select.start_select {
   font-size: 1em;
 }
 #main_container.start .level_5 h6.mandatory {
-  background: #90c6db url(../images/icons/icon-h6-m.gif) no-repeat 8px center;
+  background: #90c6db url(https://onderwijsaanbod.kuleuven.be/resources/images/icons/icon-h6-m.gif) no-repeat 8px center;
 }
 #main_container.start .level_5 h6.optional {
-  background: #90c6db url(../images/icons/icon-h6-o.gif) no-repeat 8px center;
+  background: #90c6db url(https://onderwijsaanbod.kuleuven.be/resources/images/icons/icon-h6-o.gif) no-repeat 8px center;
 }
 #main_container.start .level_5 h6 a {
   color: #ffffff;
@@ -1428,12 +1428,12 @@ select.start_select {
 
 /* line 1129, ../sass/programmagids.scss */
 #main_container #toggle_container #show_all a {
-  background: url("../images/icons/icon-pijl-color-down.png") no-repeat center right;
+  background: url("https://onderwijsaanbod.kuleuven.be/resources/images/icons/icon-pijl-color-down.png") no-repeat center right;
 }
 
 /* line 1132, ../sass/programmagids.scss */
 #main_container #toggle_container #hide_all a {
-  background: url("../images/icons/icon-pijl-color-up.png") no-repeat center right;
+  background: url("https://onderwijsaanbod.kuleuven.be/resources/images/icons/icon-pijl-color-up.png") no-repeat center right;
 }
 
 /* Headings toggelen
@@ -1458,7 +1458,7 @@ select.start_select {
 #main_container.ects h6 a {
   display: block;
   padding-right: 20px;
-  background: url("../images/icons/icon-pijl-white-up.png") no-repeat right center;
+  background: url("https://onderwijsaanbod.kuleuven.be/resources/images/icons/icon-pijl-white-up.png") no-repeat right center;
 }
 
 /* line 1159, ../sass/programmagids.scss */
@@ -1478,7 +1478,7 @@ select.start_select {
 #main_container.ects h4 a.user_link_closed,
 #main_container.ects h5 a.user_link_closed,
 #main_container.ects h6 a.user_link_closed {
-  background: url("../images/icons/icon-pijl-white-down.png") no-repeat right center;
+  background: url("https://onderwijsaanbod.kuleuven.be/resources/images/icons/icon-pijl-white-down.png") no-repeat right center;
 }
 
 /* line 1177, ../sass/programmagids.scss */
@@ -1649,7 +1649,7 @@ select.start_select {
   height: 11px;
   width: 19px;
   cursor: default;
-  background: url("../images/docenten_sprite.png") no-repeat;
+  background: url("https://onderwijsaanbod.kuleuven.be/resources/images/docenten_sprite.png") no-repeat;
   background-position: 0 0;
   border: 0;
 }
@@ -1848,20 +1848,20 @@ div.tooltip_rarrow {
   padding: 4px 8px 4px 20px;
   border: 1px solid #eee;
   color: #646464;
-  background: #f9f9f9 url(../images/icons/icon-pijl-color-down-40pct.png) no-repeat 3px 3px;
+  background: #f9f9f9 url(https://onderwijsaanbod.kuleuven.be/resources/images/icons/icon-pijl-color-down-40pct.png) no-repeat 3px 3px;
 }
 
 /* line 1474, ../sass/programmagids.scss */
 #main_container .tabs h2 a:hover,
 #main_container .tabs h2 a:focus {
-  background: #f9f9f9 url(../images/icons/icon-pijl-color-down.png) no-repeat 3px 3px;
+  background: #f9f9f9 url(https://onderwijsaanbod.kuleuven.be/resources/images/icons/icon-pijl-color-down.png) no-repeat 3px 3px;
 }
 
 /* line 1478, ../sass/programmagids.scss */
 #main_container .tabs .active h2 a {
   border: 1px solid #9c9d9e;
   color: #000;
-  background: #e8f6f6 url(../images/icons/icon-pijl-color-down.png) no-repeat 3px 3px;
+  background: #e8f6f6 url(https://onderwijsaanbod.kuleuven.be/resources/images/icons/icon-pijl-color-down.png) no-repeat 3px 3px;
 }
 
 /* line 1483, ../sass/programmagids.scss */
@@ -1927,7 +1927,7 @@ div.tooltip_rarrow {
   text-indent: -9999px;
   width: 20px;
   height: 20px;
-  background-image: url("../images/share_container_sprite.jpg");
+  background-image: url("https://onderwijsaanbod.kuleuven.be/resources/images/share_container_sprite.jpg");
   background-repeat: no-repeat;
   border: 0;
 }
@@ -2057,7 +2057,7 @@ div.tooltip_rarrow {
 #side_container h1 {
   margin-left: -20px;
   padding-left: 20px;
-  background: transparent url(../images/icons/icon-icons/icon-pijl-traject.gif) no-repeat 0px center;
+  background: transparent url(https://onderwijsaanbod.kuleuven.be/resources/images/icons/icon-icons/icon-pijl-traject.gif) no-repeat 0px center;
 }
 
 /* Clearfix
@@ -2130,7 +2130,7 @@ div.tooltip_rarrow {
 #side_container h1 {
   font-size: 18px;
   line-height: 20px;
-  background-image: url(../images/icons/icon-pijl-traject.png);
+  background-image: url(https://onderwijsaanbod.kuleuven.be/resources/images/icons/icon-pijl-traject.png);
   margin-left: 0;
   padding-left: 15px;
 }
@@ -2222,7 +2222,7 @@ div.tooltip_rarrow {
   top: 0;
   right: 0;
   bottom: 0;
-  background: #10798f url("../images/icons/icon-pijl-white-up.png") no-repeat center center;
+  background: #10798f url("https://onderwijsaanbod.kuleuven.be/resources/images/icons/icon-pijl-white-up.png") no-repeat center center;
   width: 25px;
 }
 
@@ -2257,7 +2257,7 @@ div.tooltip_rarrow {
 #main_container.ects h4 a.user_link_closed:after,
 #main_container.ects h5 a.user_link_closed:after,
 #main_container.ects h6 a.user_link_closed:after {
-  background-image: url("../images/icons/icon-pijl-white-down.png");
+  background-image: url("https://onderwijsaanbod.kuleuven.be/resources/images/icons/icon-pijl-white-down.png");
 }
 
 /* line 1782, ../sass/programmagids.scss */
@@ -2320,7 +2320,7 @@ div.tooltip_rarrow {
   content: '';
   display: inline-block;
   vertical-align: middle;
-  background: #f3f3f3 url(../images/icons/icon-pijl-color-down.png) no-repeat center center;
+  background: #f3f3f3 url(https://onderwijsaanbod.kuleuven.be/resources/images/icons/icon-pijl-color-down.png) no-repeat center center;
   width: 25px;
   height: 25px;
   margin-left: 5px;
@@ -2335,7 +2335,7 @@ div.tooltip_rarrow {
 /* line 1829, ../sass/programmagids.scss */
 #main_container.traject #toggle_container #hide_all a:after,
 #main_container.ects #toggle_container #hide_all a:after {
-  background-image: url(../images/icons/icon-pijl-color-up.png);
+  background-image: url(https://onderwijsaanbod.kuleuven.be/resources/images/icons/icon-pijl-color-up.png);
 }
 
 /* line 1832, ../sass/programmagids.scss */
@@ -2490,8 +2490,8 @@ div.tooltip_rarrow {
 /*! Icons */
 @font-face {
   font-family: 'icons';
-  src: url("../fonts/icons.eot?4oksgt");
-  src: url("../fonts/icons.eot?#iefix4oksgt") format("embedded-opentype"), url("../fonts/icons.woff?4oksgt") format("woff"), url("../fonts/icons.ttf?4oksgt") format("truetype"), url("../fonts/icons.svg?4oksgt#icons") format("svg");
+  src: url("https://onderwijsaanbod.kuleuven.be/resources/fonts/icons.eot?4oksgt");
+  src: url("https://onderwijsaanbod.kuleuven.be/resources/fonts/icons.eot?#iefix4oksgt") format("embedded-opentype"), url("https://onderwijsaanbod.kuleuven.be/resources/fonts/icons.woff?4oksgt") format("woff"), url("https://onderwijsaanbod.kuleuven.be/resources/fonts/icons.ttf?4oksgt") format("truetype"), url("https://onderwijsaanbod.kuleuven.be/resources/fonts/icons.svg?4oksgt#icons") format("svg");
   font-weight: normal;
   font-style: normal;
 }
