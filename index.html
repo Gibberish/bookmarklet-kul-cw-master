@@ -18,17 +18,6 @@
 <link rel="stylesheet" type="text/css" href="./Master in de ingenieurswetenschappen_ computerwetenschappen (Leuven) - KU Leuven_files/print.css" media="print">
 
 
-<!-- /* 
- * USAGE:
- *
- * Pas het script aan zodat de variable `courses` al de vakcodes bevat van de vakken die ge volgt. 
- * Een aantal algemene courses zijn al toegekend aan variables, pull requests welkom for anderen.
- * Kopieer de inhoud van het scriptje en voeg er `javascript: ` vanvoor aan toe en plak dat then als de url van een bookmark.
- * Ga naar de uurrooster pagina en klik on de bookmark om enkel de lessen die voor you van toepassing zijn te zien.
- * 
- * By: Jens Claes
-*/
--->
 <!-- The MIT License (MIT)
 
 Copyright (c) 2015 Jens Claes
@@ -111,7 +100,7 @@ document.location = this.toString();
     margin-left: 20px;
 ">
 				<div id="content">
-				
+				<h1 style="color:red">Selecteer uw vakken en sleep de link onderaan naar uw bladwijzerbalk. Indien een nederlands vak nog niet gemapt is op een engelstalig vak, <a href="https://github.com/Gibberish/bookmarklet-kul-cw-master/issues/new">maak een issue aan</a>. Indien een vak ontbreekt op de overzichtlijst, mail dan naar een prof om deze toe te voegen.</h1>
 		<div xmlns:set="http://exslt.org/sets" id="main_container" class="traject" style="
     width: 930px;
 "><div class="level_0 user_target_closed"><h1 class="fourfases">Master in de ingenieurswetenschappen: computerwetenschappen (Leuven)<span class="studiepunten">
@@ -263,6 +252,18 @@ document.location = this.toString();
       if ($('td.box > input[type="checkbox"]',this).is(':checked')) {
         courses.push($('td.box > input[type="checkbox"]',this).val());
       }
+    });
+    
+    //Map nederlandse vakken op de engelse
+    // nederlandse: engelse
+    var mapping = {
+    	"H04H5B": "H0N03A", //Studie van declaratieve talen
+    	"H04J9B": "H0N00A", //Ontwerp van software-systemen
+    	"H04I4A": "H0N08A", //Gedistribueerde systemen
+    	"G0B23A": "H0N05A", //Modellering van complexe systemen
+    };
+    courses = courses.map(function(course){
+    	return mapping[course] || course;
     });
 
     var bookmark = "javascript: ";
