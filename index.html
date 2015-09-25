@@ -272,6 +272,7 @@ document.location = this.toString();
 
     var bookmark = "javascript: ";
     bookmark += "(function(){";
+    bookmark += 'var target  = new Date();target.setDate(target.getDate() - target.getDay() + 3);var weekNr = "Week " + (1 + Math.ceil((target - new Date((new Date()).getFullYear(), 0, 4)) / 86400000 / 7));Array.prototype.forEach.call(document.getElementsByTagName("h2"), function(h2){if(h2.innerHTML === weekNr) window.scrollTo(0,h2.offsetTop);});'; //https://gist.github.com/dblock/1081513
     bookmark += "var courses = ";
     bookmark += JSON.stringify(courses);
     bookmark += ";";
