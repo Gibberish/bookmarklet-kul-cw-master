@@ -256,8 +256,10 @@ document.location = this.toString();
       "G0B23A": "H0N05A", //Modellering van complexe systemen
       "H04L5A": "H0S01A", //Vergelijkende studie van imperatieve programmeertalen
       "H09B5A": "H07Z9A", //Software architectuur
+      "H04H0B": ["H04H0B","H07Z7A"], // Fundamenten van de computerwetenschappen
   };
 
+  // aangevinkte vakken ophalen
   $('td.box > input[type="checkbox"]' ).live('change',  function() {  
     var courses = [];
     $('tr.opo_row').each(function() {
@@ -266,9 +268,17 @@ document.location = this.toString();
       }
     });
     
-    courses = courses.map(function(course){
+    // Engelstalige vakken voor geselecteerde Nederlandstalige vakken selecteren
+    var courses_temp = [];
+    for (var i = 0; i < courses.length; i++) {
+    	courses_temp = courses_temp.concat(mapping[courses[i]] || courses[i]);
+    };
+    courses = courses_temp;
+/*   Oude versie, zonder ondersteuning voor meerdere te volgen vakken:
+ 	courses = courses.map(function(course){
         return mapping[course] || course;
-    });
+    });*/
+    // Alternatief met .splice?
 
     var bookmark = "javascript: ";
     bookmark += "(function(){";
